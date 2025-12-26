@@ -1,1 +1,1 @@
-# imdb-sentiment-analysis
+# imdb_sentiment_analysis
