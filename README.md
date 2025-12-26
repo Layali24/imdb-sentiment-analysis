@@ -17,7 +17,20 @@ This project is practical, simple, and perfect as a portfolio piece for Machine 
 ---
 
 ## 📂 Project Structure
-
+imdb-sentiment-analysis/
+│
+├── notebooks/
+│ └── imdb_sentiment_analysis.ipynb # Main Google Colab notebook
+│
+├── models/
+│ ├── imdb_sentiment_model.pkl # Saved trained model
+│ └── imdb_tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
+│
+├── data/
+│ └── README-data-source.txt # Kaggle dataset link (not the dataset itself)
+│
+├── requirements.txt
+└── README.md
 ---
 
 ## 📊 Dataset Information
@@ -47,7 +60,8 @@ predict_sentiment("I loved this movie, it was emotional and beautiful!")
 predict_sentiment("This was a boring film, I regret watching it.")
 # -> negative
 ```
-🔧 Technologies Used
+---
+## 🔧 Technologies Used
 
 Python
 
