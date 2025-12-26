@@ -26,6 +26,8 @@ Dataset used: **IMDB Dataset of 50K Movie Reviews** (Kaggle)
 🔗 Dataset link (download only):  
 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
+> ⚠️ Note: The CSV file is **not included** in this repository due to Kaggle license rules.
+
 ---
 
 ## 🧠 How the Model Works
@@ -44,4 +46,19 @@ predict_sentiment("I loved this movie, it was emotional and beautiful!")
 
 predict_sentiment("This was a boring film, I regret watching it.")
 # -> negative
+```
+🔧 Technologies Used
 
+Python
+
+NLTK
+
+Pandas / NumPy
+
+Scikit-learn
+
+Google Colab
+
+TF-IDF Vectorizer
+
+---
