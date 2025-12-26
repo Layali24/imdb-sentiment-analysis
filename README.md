@@ -17,3 +17,31 @@ This project is practical, simple, and perfect as a portfolio piece for Machine 
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 📊 Dataset Information
+Dataset used: **IMDB Dataset of 50K Movie Reviews** (Kaggle)
+
+🔗 Dataset link (download only):  
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+---
+
+## 🧠 How the Model Works
+1. Load and clean movie review text
+2. Convert text to numbers using **TF-IDF**
+3. Train a **Logistic Regression** classifier
+4. Evaluate performance with accuracy & classification metrics
+5. Predict sentiment for new reviews
+
+---
+
+## 📎 Example Usage
+```python
+predict_sentiment("I loved this movie, it was emotional and beautiful!")
+# -> positive
+
+predict_sentiment("This was a boring film, I regret watching it.")
+# -> negative
+
